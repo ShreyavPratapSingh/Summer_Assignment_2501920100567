@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() { 
     double base;
     int exponent;
     double result = 1.0;

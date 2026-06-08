@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, sum = 0, remainder;
+    cout << "Enter a number: ";
+    cin >> n;
+    
+    while (n > 0) {
+        remainder = n % 10; // extract the last digit
+        sum = sum + remainder;
+        n = n / 10; // reduce the number
+    }
+    
+    cout << "Sum of digits is: " << sum << endl;
+    return 0;
+}

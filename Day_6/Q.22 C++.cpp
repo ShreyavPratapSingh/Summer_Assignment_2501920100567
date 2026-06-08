@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+ 
 int main() {
     long long binary;
     int decimal = 0, base = 1, rem;

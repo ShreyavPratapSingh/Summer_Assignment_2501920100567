@@ -1,0 +1,5 @@
+Put these all file in same folder to make them run easily.
+If not putted in same folder as the source code you have to suffer to locate the input and output file.
+As this code is designed to take input from the file input.txt and give the output to the output.txt, so to make the code run without any change put the input.txt and output.txt file in the folder in which the source code is.
+When running the code open the input.txt and output.txt in different columns along with the source code.
+The example of this configuration is attached with the image I have uploaded with other files.

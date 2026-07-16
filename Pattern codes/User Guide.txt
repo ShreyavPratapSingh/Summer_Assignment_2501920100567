@@ -3,3 +3,12 @@ If not putted in same folder as the source code you have to suffer to locate the
 As this code is designed to take input from the file input.txt and give the output to the output.txt, so to make the code run without any change put the input.txt and output.txt file in the folder in which the source code is.
 When running the code open the input.txt and output.txt in different columns along with the source code.
 The example of this configuration is attached with the image I have uploaded with other files.
+
+If want to run in the command prompt the you have to change the source code a little bit.
+Just remove the part
+       #ifndef ONLINE_JUDGE
+            freopen("input.txt", "r", stdin);
+            freopen("output.txt", "w", stdout);
+       #endif
+from the sorce code and you are good to go.
+Now you can run the code without opening any input or output file in different columns.
